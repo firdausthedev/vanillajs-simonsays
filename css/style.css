@@ -83,3 +83,17 @@ h2 {
   display: flex;
   gap: 3rem;
 }
+
+.blink {
+  animation: blinker 1s step-start;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.gameover-bg {
+  background: red;
+}

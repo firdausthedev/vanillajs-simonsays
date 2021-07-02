@@ -1,3 +1,3 @@
 # Simon says
 
-Simple game using vanillajs and HTML audio tag
+Simple game using vanillajs
