@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <title>Simon Says</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Simon Says</h1>
+        <h2>Score: 0</h2>
+        <div id="game">
+          <div class="upper">
+            <div class="btn red">
+              <audio src="wav/red.wav" class="audio"></audio>
+            </div>
+            <div class="btn yellow">
+              <audio src="wav/yellow.wav" class="audio"></audio>
+            </div>
+          </div>
+          <div class="lower">
+            <div class="btn green">
+              <audio src="wav/green.wav" class="audio"></audio>
+            </div>
+            <div class="btn blue">
+              <audio src="wav/blue.wav" class="audio"></audio>
+            </div>
+          </div>
+          <button class="btn-play">Play</button>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
